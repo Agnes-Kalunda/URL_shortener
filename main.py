@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 import validators
 
-import schemas
+from .schemas import schemas
 
 app = FastAPI()
 
